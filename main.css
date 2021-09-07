@@ -1,0 +1,62 @@
+body {
+    background-color: #e8e9ee;
+    user-select: none;
+}
+
+header {
+    background-color: #f3f3f5;
+    height: 80px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.btn-check:focus+.btn, .btn:focus {
+    box-shadow: none;
+}
+
+.columns h2 {
+  text-align: center;
+}
+.firstColumn h2 {
+    text-align: left;
+}
+
+.firstColumn > .btn-group {
+    width: 100%;
+}
+
+header h1 {
+    color: #9c979d;
+}
+
+ol li {
+    margin: 6px auto 0px;
+    width: 95%;
+    overflow: hidden;
+}
+
+.deleteBtn {
+    float: right;
+}
+
+li > img {
+    display: none;
+}
+
+li:hover > img {
+    display: block;
+}
+
+.listArea {
+    background-color: #f1f3f8;
+    height: 500px;
+    border: 1px solid #8d8a8a;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.addTask {
+    margin: 20px 0;
+}
